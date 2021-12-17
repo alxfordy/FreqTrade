@@ -20,7 +20,8 @@ docker-compose logs -f
 ```
 
 ## Running Live
-Change the config file
+Change the config file to have the API Keys etc then define the Strategy in the Docker-Compose file under command
+`
 
 
 ## Getting Pairs Data

@@ -1,0 +1,51 @@
+{
+  "strategy_name": "GodStraNew",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_crossed_indicator0": "ROCR-100",
+      "buy_crossed_indicator1": "MINUS_DI-15",
+      "buy_crossed_indicator2": "CDL3INSIDE-15",
+      "buy_indicator0": "CCI-6",
+      "buy_indicator1": "OBV-100",
+      "buy_indicator2": "CDLBELTHOLD-12",
+      "buy_operator0": "D",
+      "buy_operator1": "CA",
+      "buy_operator2": "=",
+      "buy_real_num0": 0.0,
+      "buy_real_num1": 0.2,
+      "buy_real_num2": 0.7
+    },
+    "sell": {
+      "sell_crossed_indicator0": "CDLKICKING-5",
+      "sell_crossed_indicator1": "CDLRICKSHAWMAN-12",
+      "sell_crossed_indicator2": "CDLTRISTAR-5",
+      "sell_indicator0": "CDLHIKKAKEMOD-15",
+      "sell_indicator1": "CDLMATCHINGLOW-100",
+      "sell_indicator2": "CDLIDENTICAL3CROWS-12",
+      "sell_operator0": ">R",
+      "sell_operator1": "DT",
+      "sell_operator2": "/<R",
+      "sell_real_num0": 0.9,
+      "sell_real_num1": 0.3,
+      "sell_real_num2": 0.2
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.312,
+      "51": 0.124,
+      "184": 0.061,
+      "271": 0
+    },
+    "stoploss": {
+      "stoploss": -0.296
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2021-12-17 13:34:53.968173+00:00"
+}

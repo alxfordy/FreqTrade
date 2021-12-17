@@ -1,0 +1,31 @@
+{
+  "strategy_name": "Zeus",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_cat": "<R",
+      "buy_real": 0.1802
+    },
+    "sell": {
+      "sell_cat": "=R",
+      "sell_real": 0.1717
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.11399999999999999,
+      "40": 0.04,
+      "216": 0.016,
+      "437": 0
+    },
+    "stoploss": {
+      "stoploss": -0.226
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2021-12-17 14:09:01.809132+00:00"
+}
